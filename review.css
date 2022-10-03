@@ -1,0 +1,45 @@
+body{
+    backgrund-image: url("SIS AKANIMOH.jpg");
+    background-attachment:fixed;
+}
+
+
+div.nams{
+    display:flex;
+    justify-content: center;
+    flex-flow: row-reverse;
+    background-image: url("download 2.jpg") ;
+    
+}
+
+div.names div{
+    border: solid 2px;
+    float: ;
+}
+
+div li#four:hover .book{
+    float:right;
+    display: inline;
+}
+
+div ol.book{
+    display:none;
+}
+
+.img li{
+    float:left ;
+}
+
+.remove{
+    clear:left;
+}
+
+.remove>a{
+    display:block;  
+}
+
+div#first, #second{
+    background-image: url("download 2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}

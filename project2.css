@@ -1,0 +1,189 @@
+body{
+    font-family: "roboto",  "helvetica";
+    min-width: 1250px;
+}
+
+header{
+    display: flex;
+    background-color: royalblue;
+    height: 67px;
+}
+
+header>section.login{
+    width:56%;
+}
+
+header form{
+    display:flex;
+    padding: 12px 0;
+    margin: 0;
+    color:white;
+    font-weight:100;
+    font-size:12px;
+    
+}
+
+.login form>div>p{
+    margin: 0;
+    color: blue;
+    font-weight:lighter;
+}
+
+header form input.log{
+    width:150px;
+}
+
+#in{
+    text-align: center;
+    background-color: blue;
+    border: none;
+    color:white;
+    margin:15px 0 0 5px;
+    height: 20px;
+    font-weight: bold;
+}
+
+header form div{
+    margin: 0;
+}
+
+#logo{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0 20px 140px;
+    width: 44%;
+}
+
+main{
+    background-color: yellow;
+    display: flex;
+    padding: 0 180px;
+}
+
+.share{
+    width:1700px;
+}
+
+main>section>img{
+    width:250px;
+    height: auto;
+}
+
+main>section>div#con{
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.account>div>p:first-child{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#surname,#username{
+    width:172px;
+    height:39px;
+    border-radius: 5px;
+    border: none;
+    margin:5px 0;
+    font-size: 16px;
+    font-weight: 100;
+    padding:10px;
+}
+
+#email,#password{
+    width: 350px;
+    border: none;
+    height:40px;
+    border-radius: 5px;
+    margin:5px 0;
+    font-size: 16px;
+    font-weight: 100;
+    padding:10px;
+
+}
+
+div.DOB>P{
+color:grey;
+margin-bottom:0;
+font-weight:500;
+}
+
+.DOB{
+    word-spacing:-0.9em; 
+}
+
+div button{
+    background-color:grey ;
+    margin: 0 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+select{
+    height:25px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+#day{
+    width:50px;
+}
+
+div.gender>p{
+color: grey;
+margin-bottom: 5px;
+}
+
+div.gender span{
+    font-size: 18px;
+    color: black;
+    font-weight:500;
+    vertical-align: sub;
+    
+}
+
+div.gender input{
+    margin-left: 8px;
+}
+
+section>div>form>div:last-child p{
+    width:270px;
+    font-size: 9.5px;
+    color:grey;
+}
+
+section>div>form>div:last-child p:last-child{
+    font-size: 12.5px;
+}
+
+section>div>form>div:last-child input{
+    background-color: lightgreen;
+    height:40px;
+    width:165px;
+   color:white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer{
+    margin: 20px 250px;
+    font-size: 11px;
+    color:blue
+}
+
+footer p span{
+    margin-right: 8px;
+}
+
+footer p:first-child span:first-child{
+    color:black;
+}
+
+footer p:last-child{
+    color:grey;
+}
+
+
+
